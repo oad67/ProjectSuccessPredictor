@@ -51,7 +51,13 @@ df.dropna(subset=["lat","lon"])
 # --------------------
 st.sidebar.header("Project Characteristics")
 
-subtype = st.sidebar.selectbox("Project Subtype", df["Subtype of PPI"].unique())
+subtype = st.sidebar.selectbox("Project Subtype", ['Build, rehabilitate, operate, and transfer',
+       'Full', 'Lease contract',
+       'Management contract', 'Merchant',
+       'Partial',
+       'Rehabilitate, lease or rent, and transfer',
+       'Rehabilitate, operate, and transfer',
+       'Rental'])
 subsector = st.sidebar.selectbox("Subsector", ["Roads","Water Utility","ICT","Treatment/ Disposal"])
 #option3 = st.sidebar.selectbox("Dropdown 3", df["col3"].unique())
 #option4 = st.sidebar.selectbox("Dropdown 4", df["col4"].unique())

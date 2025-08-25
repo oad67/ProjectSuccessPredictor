@@ -1,1 +1,1 @@
-# projectSuccessPredictor
+# This app predicts infrastructure project success or failure based on data from The World Bank's PPI (Private Participation in Infrastructure) Database. The data used in developing the predictive model included only that were not active (Status= Completed | Cancelled | Distressed). All completed projects were labeled as successful and the remaining were labeled as failed. Further enhancements to this tool will enable infrastructure investors to make informed and data-driven investment decisions on projects in low to upper middle income countries. 

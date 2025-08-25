@@ -49,6 +49,10 @@ df.dropna(subset=["lat","lon"])
 # --------------------
 # Sidebar Inputs
 # --------------------
+
+st.header("Project Success Predictor :earth_africa: - - OApps")
+
+
 st.sidebar.header("Project Characteristics")
 
 subtype = st.sidebar.selectbox("Project Subtype", ['Build, rehabilitate, operate, and transfer',
